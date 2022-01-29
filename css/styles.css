@@ -141,10 +141,10 @@ img {
 .header-contacts-list {
   color: var(--secondary-color);
 }
-.header-contacts-mail,
+/* .header-contacts-mail,
 .header-contacts-tel {
   display: block;
-}
+} */
 
 .logo-header,
 .logo-footer {
