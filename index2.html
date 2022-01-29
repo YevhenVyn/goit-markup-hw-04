@@ -16,7 +16,38 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <section class="clients section">
+    <header class="page-header">
+        <div class="header-container container">
+            <nav class="site-nav">
+                <a lang="en" class="logo-header link" href=""><span class="logo-first">Web</span>Studio</a>
+                <ul class="header-list list">
+                    <li class="header-item"><a href="" class="header-link link current">Студия</a></li>
+                    <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
+                    <!--Можна зробити якір для Контактів щоб при натисканні перекидало вниз сторінки: <li><a href="#contacs">Контакты</a></li> -->
+                    <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="header-contacts-list list">
+                <li class="header-contacts-item">
+                    <a href="mailto:info@devstudio.com"
+                        class="header-contacts-mail link">
+                        <svg class="header__mail-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                        info@devstudio.com</a>
+                    </li>
+                <li class="header-contacts-item">
+                    <a href="tel:+380961111111" class="header-contacts-tel link">
+                        <svg class="header__phone-icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                        +38 096 111 11
+                        11</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- <section class="clients section">
         <div class="container">
             <h2 class="clients-title">Постоянные клиенты</h2>
             <ul class="clients__list list">
@@ -63,5 +94,5 @@
                     </a>
                 </li>
             </ul>
-            </section>
+            </section> -->
 </body>

@@ -112,6 +112,23 @@ img {
   padding-bottom: 32px;
   color: var(--primary-color);
 }
+.header-contacts-mail,
+.header-contacts-tel {
+  display: flex;
+  align-items: center;
+}
+.header__mail-icon,
+.header__phone-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.link:hover .header__mail-icon,
+.link:focus .header__mail-icon,
+.link:hover .header__phone-icon,
+.link:focus .header__phone-icon {
+  fill: var(--accent-color);
+}
 
 .current {
   color: var(--accent-color);
