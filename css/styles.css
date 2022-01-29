@@ -13,6 +13,7 @@
   --bgc-btn-second: #188ce8;
   --icon-primary: #afb1b8;
   --bgc-footer-socials: rgba(255, 255, 255, 0.1);
+  --clients-link: #afb1b8;
 }
 
 body {
@@ -292,7 +293,8 @@ img {
 }
 
 .about-title,
-.team-title {
+.team-title,
+.clients-title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -400,6 +402,44 @@ img {
 
 .team__socials-icon {
   fill: var(--icon-primary);
+}
+
+/* КЛІЄНТИ */
+.clients__list {
+  display: flex;
+}
+.clients__item {
+  flex-basis: calc((100% - 5 * 30px) / 6);
+}
+
+.clients__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients__link {
+  display: flex;
+  height: 92px;
+  border: 1px solid var(--clients-link);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.clients__link:hover,
+.clients__link:focus {
+  border-color: var(--accent-color);
+}
+
+.clients__icon {
+  width: 106px;
+  height: 60px;
+  fill: var(--icon-primary);
+
+  /* padding: 16px 32px; */
+}
+
+.clients__link:hover .clients__icon,
+.clients__link:focus .clients__icon {
+  fill: var(--accent-color);
 }
 
 /* ФУТЕР */
