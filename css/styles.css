@@ -404,6 +404,15 @@ img {
   text-decoration: none;
   color: var(--titles-light);
 }
+
+.footer-container {
+  display: flex;
+}
+
+.footer_left-side {
+  margin-right: 70px;
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
@@ -421,6 +430,34 @@ img {
 .footer-link {
   color: var(--titles-light-transparency);
 }
+
+.footer_socials {
+  padding-top: 12px;
+  width: 206px;
+}
+
+.footer__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+}
+
+.footer__socials-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__socials-link {
+  background-color: var(--bgc-footer-socials);
+}
+
+.footer__socials-icon {
+  fill: var(--bgc-light);
+}
+
 /* СТОРІНКА "ПОРТФОЛІО" */
 /* КНОПКИ */
 .portfolio-btn-list {
