@@ -515,6 +515,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer_left-side {
@@ -540,7 +541,7 @@ img {
 }
 
 .footer_socials {
-  padding-top: 12px;
+  /* padding-top: 12px; */
   width: 206px;
 }
 
