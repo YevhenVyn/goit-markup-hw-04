@@ -388,7 +388,7 @@ img {
 
 .team__socials-link,
 .footer__socials-link {
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
